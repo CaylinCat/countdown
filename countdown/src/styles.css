@@ -3,7 +3,7 @@
     text-align: center;
   }
   
-  body {
+body {
     background-color: #b53bff;
     color: #fff;
     font-family: sans-serif;
@@ -19,6 +19,26 @@
   }
 
   .counter_text {
-    display: inline;  
+    display: inline;
+    margin-bottom: 20px;  
+  }
+
+  .links {
+    text-decoration: none;
+    display: 'block';
+
+  }
+
+  .container {
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    margin: '0 auto';
+    justify-content: center;
+    align-items: center;
+    color: '#000';
+    font-size: xx-large; 
   }
   
